@@ -282,6 +282,16 @@ ul {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 }
+.icon-input{
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+
 .modal > button {
   display: flex;
   justify-content: center;
@@ -302,6 +312,135 @@ ul {
   background-color: #404bbf;
   fill: #ffffff;
 }
+.modal-form{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 8px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.7;
+  letter-spacing: 0.04em;
+  color: #8E8F99;}
+.modal{
+  padding: 40;
+}
+.modal-form-input{
+border: 1px solid #4D5AE5;
+border-radius: 4px;
+border-radius: 4px;
+}
+.modal-form-input-deskc{
+  width: 100%;
+}
+.modal-form-input{
+  padding: 11px;
+  padding-left: 38px;
+  width: 100%;
+  height: 40px;
+  outline: none;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+border-radius: 4px;
+}
+.textarea{
+  padding-top: 8px;
+  padding-left: 16px;
+  width: 100%;
+  min-height:120px ;
+  resize: none;
+  outline: none;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+}
+.textarea::placeholder{
+  font-weight: 400;
+font-size: 12px;
+line-height: 1.7;
+letter-spacing: 0.04em;
+color: rgba(46, 47, 66, 0.4);
+}
+
+.modal-input:focus,
+.textarea:focus
+{
+  border: 1px solid #4D5AE5;
+}
+.icon-input{
+  position: absolute;
+  top: 50%;;
+  left: 19px;
+}
+.modal-label:focus-within{
+  fill: #404bbf;
+}
+.modal-checkbox{
+  position: relative;
+  display: flex;
+  margin-bottom: 24px;
+  font-weight: 400;
+font-size: 12px;
+line-height: 1.7;
+letter-spacing: 0.04em;
+color: #8E8F99;
+}
+.checkbox{
+  position: absolute;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+
+}
+.checkbox-icon{
+  
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+border-radius: 2px;
+}
+.checkbox:checked ~ .checkbox-icon{
+  background-image: url(../images/checkbox.svg);
+  background-size:contain;
+
+  border: none;
+border-radius: 2px;
+}
+.checkbox:focus ~ .checkbox-icon{
+  
+outline: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 2px;     
+}
+
+
+.modal-checkbox a{
+  color: #4D5AE5;
+}
+.submit-btn{
+  width: 169px;
+  height: 56px;
+  padding: 16px 32px;
+  background: #4D5AE5;
+  cursor: pointer;
+  border: none;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+font-weight: 500;
+color: #FFFFFF;
+
+transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
+}
+
+.submit-btn:hover,
+.submit-btn:focus{
+  background: #404BBF;
+}
+
+
 
 /*======Section2======*/
 .feature-list {
@@ -426,8 +565,8 @@ ul {
   justify-content: center;
   border: 1px solid #8e8f99;
   border-radius: 4px;
-  height: 100%;
-  color: #8e8f99;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link-company:hover,
 .link-company:focus {
@@ -476,6 +615,64 @@ ul {
   margin-bottom: 16px;
   text-transform: uppercase;
 }
+.footer-input{
+  padding: 8px;
+  padding-left: 16px;
+  width: 264px;
+  height: 40px;
+  color:#ffffff;
+  background: none;
+  border: 1px solid #FFFFFF;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+border-radius: 4px;
+}
+.footer-input:focus{
+  border: 1px solid #4D5AE5;
+border-radius: 4px;
+}
+.footer-input::placeholder{
+  color: #FFFFFF;
+}
+
+.footer-span{
+  position: absolute;
+  top: 0;
+  left: 16px;
+  
+  font-weight: 400;
+font-size: 12px;
+line-height: 2.00;
+letter-spacing: 0.04em;
+color: #ffffff;
+}
+.footer-subscribe button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 24px;
+  gap: 16px;
+  
+  width: 165px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  color: #FFFFFF;
+  background: #4D5AE5;
+  border: none;
+border-radius: 4px;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-subscribe button:focus,
+.footer-subscribe button:hover{
+  background-color: #404bbf;}
+  .footer-form{
+    position: relative;
+    display: flex;
+    gap: 24px;
+  
+  }
 
 /*======portfolio======*/
 .header {
@@ -740,4 +937,16 @@ img {
 }
 .footer-icon {
   fill: #f4f4fd;
+}
+.icon-send {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+.icon-send {
+  viewBox:0 0 38 32;
+  width: 1.2001953125em;
 }
