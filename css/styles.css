@@ -314,6 +314,7 @@ ul {
    }
    .span-js{
        width: 100%;
+       position: relative;
    }
    .svg-connections{
        position: absolute;
@@ -321,6 +322,8 @@ ul {
        left: 19px;
        align-items: center;
        justify-content: center;
+       transform: translateY(-50%);
+
    }
    .input-modal{
        padding: 11px;
