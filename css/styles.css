@@ -602,6 +602,9 @@ ul {
   margin-bottom: 16px;
   text-transform: uppercase;
 }
+.social-container{
+  margin-right: 80px;
+}
 /* footer subcribe */
 .footer-subscribe button{
   display: flex;
