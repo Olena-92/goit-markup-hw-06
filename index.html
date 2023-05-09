@@ -68,121 +68,55 @@
 
         <div class="backdrop is-hidden" data-modal>
           <div class="modal">
-            <button data-modal-open>
+            <button data-modal-close type="button">
               <svg class="svg-btn" width="8" height="8">
-                <use href="./images/icons.svg#icon-Vector"></use>
+                <use href="./images/icons.svg#icon-close"></use>
               </svg>
             </button>
-            <p> Leave your contacts and we will call you back</p>
-           
-            <label class="modal-form">
-              Name
-              <span class="modal-form-input-deskc">
-              <svg class="icon-input" width="18" height="24">
-                <use href="./images/icons.svg#icon-people"></use>
-              </svg>
-              <input class="modal-form-input" type="text" name="name" />
-            </span>
-          </label>
-                                   
-            <label class="modal-form">
-              Phone
-              <span class="modal-form-input-deskc">
-                <input  class="modal-form-input"type="tel" name="tel"/>
-                <svg class="icon-input" width="18" height="24">
-                  <use href="./images/icons.svg#icon-phone"></use>
-                </svg>
-              </span>
-            </label>
-            
-            <label class="modal-form">
-            Email
-              <span class="modal-form-input-deskc">
-              <input class="modal-form-input" type="email" name="email" />
-              <svg class="icon-input" width="18" height="24">
-                <use href="./images/icons.svg#icon-email"></use>
-              </svg>
-            </span>
-          </label>
-          <label class="modal-form textarea-label">
-            Commeent
-            <textarea
-              name="comment"
-              class="textarea"
-              placeholder="Text input"
-            ></textarea>
-          </label>
-          <label class="modal-checkbox">
-            <input class="checkbox" type="checkbox" name="policy" />
-            <span class="checkbox-icon"></span>
-            <span class="checkbox-text">I accept the terms and conditions of the <a href=""> Privacy Policy</a></span>
-          </label>
-          <button type="submit" class="submit-btn">Send</button>
-        </form> 
-          </div>      
+            <p class="title-contacts">Leave your contacts and we will call you back</p>
+            <form action="">
+               <label class="label-js">
+                   <span class="retreat">Name</span> 
+                   <span class="span-js">
+                    <svg class="svg-connections" width="18" height="24">
+                         <use href="./images/icons.svg#icon-person"></use>
+                    </svg>
+                    <input class="input-modal" type="text" name="name" />
+                   </span> 
+               </label>
+               <label class="label-js">
+                    <span class="retreat">Phone</span> 
+                    <span class="span-js">
+                     <svg class="svg-connections" width="18" height="24">
+                          <use href="./images/icons.svg#icon-phone"></use>
+                     </svg>
+                     <input class="input-modal" type="tel" name="tel" />
+                    </span> 
+                </label>
+                <label class="label-js">
+                    <span class="retreat">Email</span> 
+                    <span class="span-js">
+                     <svg class="svg-connections" width="18" height="24">
+                          <use href="./images/icons.svg#icon-email"></use>
+                     </svg>
+                     <input class="input-modal" type="email" name="email" />
+                    </span> 
+                </label>
+                <label class="label-js label-textarea">
+                    <span class="retreat">Comment</span>
+                    <textarea  name="comment" class="textarea" placeholder="Text input"></textarea>
+                </label>
+                <label class="label-checkbox">
+                    <input class="input-checkbox" type="checkbox" name="policy">
+                    <span class="span-checkbox"></span>
+                    <span>I accept the terms and conditions of the <a href="" class="span-policy"> Privacy Policy</a></span>
+                </label>
+                <button type="submit" class="btn-submit">Send</button>
+            </form>
+          </div>
         </div>
-      </section>
-
-      <!--Section2-->
-      <section class="section">
-        <div class="container">
-          <h2 hidden class="title">Features</h2>
-          <ul class="list list-strategy">
-            <li class="feature-list">
-              <div class="strategy-div">
-                <svg class="strategy-icon" width="64" height="64">
-                  <use href="./images/icons.svg#icon-antenna"></use>
-                </svg>
-              </div>
-              <h3 class="feature-list-title">Strategy</h3>
-              <p class="feature-list-desc">
-                Our goal is to identify the business problem to walk away with
-                the perfect and creative solution.
-              </p>
-            </li>
-
-            <li class="feature-list">
-              <div class="strategy-div">
-                <svg class="strategy-icon" width="64" height="64">
-                  <use href="./images/icons.svg#icon-clock"></use>
-                </svg>
-              </div>
-              <h3 class="feature-list-title">Punctuality</h3>
-              <p class="feature-list-desc">
-                Bring the key message to the brand's audience for the best price
-                within the shortest possible time.
-              </p>
-            </li>
-
-            <li class="feature-list">
-              <div class="strategy-div">
-                <svg class="strategy-icon" width="64" height="64">
-                  <use href="./images/icons.svg#icon-diagram"></use>
-                </svg>
-              </div>
-              <h3 class="feature-list-title">Diligence</h3>
-              <p class="feature-list-desc">
-                Research and confirm brands that present the strongest digital
-                growth opportunities and minimize risk.
-              </p>
-            </li>
-
-            <li class="feature-list">
-              <div class="strategy-div">
-                <svg class="strategy-icon" width="64" height="64">
-                  <use href="./images/icons.svg#icon-astronaut"></use>
-                </svg>
-              </div>
-              <h3 class="feature-list-title">Technologies</h3>
-              <p class="feature-list-desc">
-                Design practice focused on digital experiences. We bring forth a
-                deep passion for problem-solving.
-              </p>
-            </li>
-          </ul>
-        </div>
-      </section>
-
+</div>
+</section>
       <!--Section3-->
       <section class="section section-doing ">
         <div class="container">
