@@ -395,7 +395,12 @@ ul {
    outline: 1px solid rgba(46, 47, 66, 0.4);
    border-radius: 2px;     
 }
+.input-checkbox:checked {
+  background-color: var(--iris);
+  border-color: var(--iris);
+}
 
+   
 .span-policy{
    font-family: 'Roboto';
     font-style: normal;
