@@ -355,63 +355,57 @@ ul {
       letter-spacing: 0.04em;
       color: rgba(46, 47, 66, 0.4);
      }
-     /* Checkbox */
-   .label-checkbox{
-       position: relative;
-       display: flex;
-       margin-bottom: 24px;
-       font-weight: 400;
-       font-size: 12px;
-       line-height: 1.7;
-       letter-spacing: 0.04em;
-       color: #8E8F99;
-       margin-top: 20px;
-   
-   }
-   .input-checkbox:focus-within{
-    fill: #404bbf;
-  }
-   .input-checkbox{
-       position: absolute;
-       width: 1px;
-       height: 1px;
-       margin: -1px;
-       border: 0;
-       padding: 0;
-       clip: rect(0 0 0 0);
-       overflow: hidden;
-   }
-   .checkbox-icon{
-       width: 16px;
-       height: 16px;
-       margin-right: 8px;
-       border: 1px solid rgba(46, 47, 66, 0.4);
-       border-radius: 2px;
-   }
-   .input-checkbox:checked ~ .checkbox-icon{
-       background-size: contain;
-       border-radius: 2px;
-       border: none;
-       background-image: url(../images/checkbox.svg);
-   }
-     .checkbox:focus ~ .checkbox-icon{
-        outline: 1px solid rgba(46, 47, 66, 0.4);
-        border-radius: 2px;  
-        
-     }
-     
-   .span-policy{
-        font-family: 'Roboto';
-         font-style: normal;
-       font-weight: 400;
-       font-size: 12px;
-        line-height: 16px;
-       color: #4D5AE5;
-       letter-spacing: 0.04em;
-       text-decoration-line: underline;
-   }
-   .span-checkbox a{
-    color: #4D5AE5;}
+   /* Checkbox */
+.label-checkbox{
+  position: relative;
+  display: flex;
+  margin-bottom: 24px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.7;
+  letter-spacing: 0.04em;
+  color: #8E8F99;
+  margin-top: 20px;
+
+}
+.input-checkbox{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.span-checkbox{
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 2px;
+}
+.input-checkbox:checked ~ .span-checkbox{
+  background-size: contain;
+  border-radius: 2px;
+  border: none;
+  background-image: url(../images/checkbox.svg);
+}
+.checkbox:focus ~ .span-checkbox{
+   outline: 1px solid rgba(46, 47, 66, 0.4);
+   border-radius: 2px;     
+}
+
+.span-policy{
+   font-family: 'Roboto';
+    font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+   line-height: 16px;
+  color: #4D5AE5;
+  letter-spacing: 0.04em;
+  text-decoration-line: underline;
+}
    /* BTN SUBMIT */
    .btn-submit{
        width: 169px;
