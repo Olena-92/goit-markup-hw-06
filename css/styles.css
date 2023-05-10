@@ -365,7 +365,7 @@ ul {
   line-height: 1.7;
   letter-spacing: 0.04em;
   color: #8E8F99;
-  margin-top: 20px;
+  
 
 }
 .input-checkbox{
@@ -384,12 +384,19 @@ ul {
   margin-right: 8px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
+  
+  
+}
+.span-checkbox a{
+  color: #4D5AE5;
 }
 .input-checkbox:checked ~ .span-checkbox{
   background-size: contain;
-  border-radius: 2px;
-  border: none;
-  background-image: url(./images/checkbox.svg);
+   border: none;
+  background-image: url(../images/checkbox.svg);
+  background-color:#404BBF ;
+  border: 1px solid #404BBF;
+ 
 }
 .checkbox:focus ~ .span-checkbox{
    outline: 1px solid rgba(46, 47, 66, 0.4);
