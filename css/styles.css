@@ -739,11 +739,7 @@ color: #ffffff;
   position: relative;
   overflow: hidden;
 }
-.div-animations :hover > p,
-.div-animations:focus > p{
-  transform: translateY(0%);
-  
-}
+
 
 .card-animations {
   position: absolute;
@@ -758,6 +754,9 @@ color: #ffffff;
 }
 .portfolio-link:hover .card-animations {
   transform: translatey(0);
+}
+.portfolio-link:focus .card-animations{
+  transform: translateY(0%);
 }
 .card-animations > p {
   width: 296px;
