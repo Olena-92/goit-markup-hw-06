@@ -739,6 +739,12 @@ color: #ffffff;
   position: relative;
   overflow: hidden;
 }
+.div-animations :hover > p,
+.div-animations:focus > p{
+  transform: translateY(0%);
+  
+}
+
 .card-animations {
   position: absolute;
   top: 0;
