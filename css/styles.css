@@ -214,8 +214,7 @@ ul {
   border-radius: 4px;
 
   font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
+   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
@@ -274,6 +273,7 @@ ul {
     background-color: #e7e9fc;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   .modal > button:hover,
   .modal > button:focus {
@@ -281,10 +281,13 @@ ul {
     background-color: #404bbf;
     fill: #ffffff;
   }
+  
+  
+  .modal-close-svg{
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+  }
+  
   .title-contacts{
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 500;
     font-size: 16px;
     line-height: 24px;
     text-align: center;
@@ -297,11 +300,11 @@ ul {
        display: flex;
        flex-wrap: wrap;
        margin-bottom: 4px;
-       font-weight: 400;
        font-size: 12px;
        line-height: 1.7;
        letter-spacing: 0.04em;
        color: #8E8F99;
+      
    }
    .retreat{
        margin-bottom: 4px;
@@ -360,7 +363,6 @@ ul {
   position: relative;
   display: flex;
   margin-bottom: 24px;
-  font-weight: 400;
   font-size: 12px;
   line-height: 1.7;
   letter-spacing: 0.04em;
@@ -411,8 +413,7 @@ ul {
 .span-policy{
    font-family: 'Roboto';
     font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
+   font-size: 12px;
    line-height: 16px;
   color: #4D5AE5;
   letter-spacing: 0.04em;
@@ -428,7 +429,6 @@ ul {
        border: none;
        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
        border-radius: 4px;
-       font-weight: 500;
        color: #FFFFFF;
        transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
    }
@@ -451,7 +451,6 @@ ul {
 }
 
 .feature-list-title {
-  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -482,8 +481,7 @@ ul {
   width: calc((100% - 48px) / 3);
 }
 .section-title {
-  font-weight: 700;
-  font-size: 36px;
+   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
@@ -522,7 +520,6 @@ ul {
   border-radius: 0px 0px 4px 4px;
 }
 .team-name {
-  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   text-align: center;
@@ -587,7 +584,6 @@ ul {
 
 .footer-desc {
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -605,7 +601,6 @@ ul {
 
 .logo-studio-footer {
   font-family: "Raleway" sans-serif;
-  font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
@@ -629,7 +624,6 @@ ul {
   gap: 16px;
   
   width: 165px;
-  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -681,9 +675,7 @@ border-radius: 4px;
   position: absolute;
   top: 0;
   left: 16px;
-  
-  font-weight: 400;
-font-size: 12px;
+ font-size: 12px;
 line-height: 2.00;
 letter-spacing: 0.04em;
 color: #ffffff;
@@ -700,7 +692,6 @@ color: #ffffff;
   background-color: #f4f4fd;
 
   font-family: "Roboto", sans-serif;
-  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
@@ -761,8 +752,6 @@ color: #ffffff;
 .card-animations > p {
   width: 296px;
   min-height: 96px;
-
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -931,7 +920,6 @@ img {
 
 .social-text {
   margin-bottom: 16px;
-  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -962,14 +950,5 @@ img {
   fill: #f4f4fd;
 }
 .icon-send {
-  display: inline-block;
-  width: 1em;
-  height: 1em;
-  stroke-width: 0;
-  stroke: currentColor;
-  fill: currentColor;
-}
-.icon-send {
-  viewBox:0 0 38 32;
-  width: 1.2001953125em;
+   fill: currentColor;
 }
