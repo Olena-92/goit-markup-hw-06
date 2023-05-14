@@ -299,15 +299,16 @@ ul {
        position: relative;
        display: flex;
        flex-wrap: wrap;
-       margin-bottom: 4px;
+       margin-bottom: 8px;
        font-size: 12px;
        line-height: 1.7;
        letter-spacing: 0.04em;
        color: #8E8F99;
+       gap: 8px;
       
    }
    .retreat{
-       margin-bottom: 4px;
+       margin-bottom: 8px;
    }
    .label-js:focus-within{
        fill: #404bbf;
