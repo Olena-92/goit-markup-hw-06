@@ -304,8 +304,7 @@ ul {
        line-height: 1.7;
        letter-spacing: 0.04em;
        color: #8E8F99;
-       gap: 8px;
-      
+       
    }
    .retreat{
        margin-bottom: 8px;
@@ -361,13 +360,12 @@ ul {
 .label-checkbox{
   position: relative;
   display: flex;
-  margin-bottom: 24px;
-  font-weight: 400;
+   font-weight: 400;
   font-size: 12px;
   line-height: 1.7;
   letter-spacing: 0.04em;
   color: #8E8F99;
-  margin-top: 20px;
+  margin-bottom: 8px;;
   align-items: center;
   
   
